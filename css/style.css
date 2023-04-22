@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 80%;
+    margin: 5px;
+
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+  }
+  
+
+  .hour {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .description {
+    height: 70px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .past {
+    background-color: #d3d3d3;
+  }
+
+  .present {
+    background-color: #ff6961; 
+  }
+
+  .future {
+    background-color: #77dd77;
+  }
+  
+  .saveBtn {
+    background-color: #008080;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    height: 70px;
+  }
